@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Introduction to JavaScript</title>
+            <!-- 3. external javascript file -->
+            <script src="script.js"></script>
+            <!-- 2. internal javascript -->
+             <script>
+                ///javascript code here
+                function clickLink(){
+                    alert('This JS code is from internal javascript.');
+                }
+
+             </script>
+        </head>
+        <body>
+            <!-- 1. inline javascript -->
+            <button onclick="alert('This is my first piece of code in JS')">Click Me!</button>
+            <a href="#" onclick="clickLink()">Click This One Too!</a>
+            <input onclick="secondButton()" type="button" value="Click This Lastly" >
+        </body>
+    </html>
